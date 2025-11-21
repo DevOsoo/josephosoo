@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph Osoo Adek | Technical Writer & AI Researcher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            },
+            colors: {
+              charcoal: '#0d0d0d',
+              panel: '#1a1a1a',
+              lightbg: '#f8fafc',
+              lightpanel: '#ffffff',
+              accent: '#4da6ff',
+              'accent-hover': '#66b2ff',
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+              // Typewriter sequences
+              'type-1': 'typewriter 2s steps(40) 0.5s 1 normal both, blink 500ms steps(40) infinite, hideBorder 0s linear 2.5s forwards',
+              'type-2': 'typewriter 1.5s steps(40) 2.5s 1 normal both, blink 500ms steps(40) infinite, hideBorder 0s linear 4s forwards',
+              'type-3': 'typewriter 2s steps(40) 4s 1 normal both, blink 500ms steps(40) infinite, hideBorder 0s linear 6.5s forwards',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              typewriter: {
+                '0%': { width: '0%' },
+                '100%': { width: '100%' }
+              },
+              blink: {
+                 'from': { borderColor: 'transparent' },
+                 'to': { borderColor: '#4da6ff' }
+              },
+              hideBorder: {
+                'to': { borderColor: 'transparent' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1; 
+        border-radius: 4px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #333; 
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #4da6ff; 
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/josephosoo/assets/index-BkD-YH9L.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
